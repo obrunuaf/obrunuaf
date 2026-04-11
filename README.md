@@ -7,7 +7,9 @@ Now building my own products, AI-first — using that same systems thinking with
 ---
 
 **Previous stack** — C# · .NET · COBOL · SQL Server · VB.NET  
-**Current stack** — NestJS · Node.js · Go · React Native · Next.js · TypeScript · PostgreSQL  
+**Backend** — NestJS · Node.js · Go · PostgreSQL · Supabase  
+**Frontend** — React Native · Next.js · React · TypeScript  
+**Infra** — VPS · Nginx · PM2 · GitHub Actions · Docker  
 **How I build** — AI-first, with Claude and Cursor as core tools  
 
 ---

@@ -14,18 +14,29 @@ Now building my own products, AI-first — using that same systems thinking with
 
 ---
 
-<table>
-  <tr>
-    <td>
-      <img src="https://github-readme-stats.vercel.app/api?username=obrunuaf&show_icons=true&theme=github_dark&hide_border=true&count_private=true" />
-    </td>
-    <td>
-      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=obrunuaf&layout=compact&theme=github_dark&hide_border=true&count_private=true" />
-    </td>
-  </tr>
-</table>
+**Backend**
 
-[![GitHub Streak](https://streak-stats.demolab.com?user=obrunuaf&theme=github-dark&hide_border=true)](https://git.io/streak-stats)
+![NestJS](https://img.shields.io/badge/-NestJS-0D1117?style=flat-square&logo=nestjs&logoColor=E0234E)
+![Node.js](https://img.shields.io/badge/-Node.js-0D1117?style=flat-square&logo=node.js&logoColor=339933)
+![Go](https://img.shields.io/badge/-Go-0D1117?style=flat-square&logo=go&logoColor=00ADD8)
+![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-0D1117?style=flat-square&logo=postgresql&logoColor=4169E1)
+![Supabase](https://img.shields.io/badge/-Supabase-0D1117?style=flat-square&logo=supabase&logoColor=3ECF8E)
+![TypeScript](https://img.shields.io/badge/-TypeScript-0D1117?style=flat-square&logo=typescript&logoColor=3178C6)
+
+**Frontend**
+
+![React Native](https://img.shields.io/badge/-React%20Native-0D1117?style=flat-square&logo=react&logoColor=61DAFB)
+![Next.js](https://img.shields.io/badge/-Next.js-0D1117?style=flat-square&logo=next.js&logoColor=white)
+![React](https://img.shields.io/badge/-React-0D1117?style=flat-square&logo=react&logoColor=61DAFB)
+![Tailwind](https://img.shields.io/badge/-Tailwind-0D1117?style=flat-square&logo=tailwindcss&logoColor=06B6D4)
+
+**Infra & Tools**
+
+![Docker](https://img.shields.io/badge/-Docker-0D1117?style=flat-square&logo=docker&logoColor=2496ED)
+![GitHub Actions](https://img.shields.io/badge/-GitHub%20Actions-0D1117?style=flat-square&logo=githubactions&logoColor=2088FF)
+![Nginx](https://img.shields.io/badge/-Nginx-0D1117?style=flat-square&logo=nginx&logoColor=009639)
+![Claude](https://img.shields.io/badge/-Claude-0D1117?style=flat-square&logo=anthropic&logoColor=white)
+![Cursor](https://img.shields.io/badge/-Cursor-0D1117?style=flat-square&logo=cursor&logoColor=white)
 
 ---
 

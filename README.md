@@ -14,9 +14,24 @@ Now building my own products, AI-first — using that same systems thinking with
 
 ---
 
-[![GitHub Stats](https://github-readme-stats.vercel.app/api?username=obrunuaf&show_icons=true&theme=github_dark&hide_border=true&count_private=true)](https://github.com/obrunuaf)
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=obrunuaf&layout=compact&theme=github_dark&hide_border=true)](https://github.com/obrunuaf)
+<table>
+  <tr>
+    <td>
+      <img src="https://github-readme-stats.vercel.app/api?username=obrunuaf&show_icons=true&theme=github_dark&hide_border=true&count_private=true" />
+    </td>
+    <td>
+      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=obrunuaf&layout=compact&theme=github_dark&hide_border=true&count_private=true" />
+    </td>
+  </tr>
+</table>
+
+[![GitHub Streak](https://streak-stats.demolab.com?user=obrunuaf&theme=github-dark&hide_border=true)](https://git.io/streak-stats)
 
 ---
 
-[LinkedIn](https://www.linkedin.com/in/balvesfranca/)
+<!--START_SECTION:waka-->
+<!--END_SECTION:waka-->
+
+---
+
+[![LinkedIn](https://img.shields.io/badge/-balvesfranca-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/balvesfranca/)

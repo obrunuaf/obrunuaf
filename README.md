@@ -30,6 +30,10 @@ Now building my own products, AI-first — using that same systems thinking with
 ---
 
 <!--START_SECTION:waka-->
+![Profile Views](http://img.shields.io/badge/Profile%20Views-0-blue?style=flat)
+
+
+ Last Updated on 12/04/2026 03:25:39 UTC
 <!--END_SECTION:waka-->
 
 ---

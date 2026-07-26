@@ -1,12 +1,13 @@
 <div align="center">
 
-# Oi, eu sou o Bruno Alves França 👋
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0A0F1A,100:3B82F6&height=180&section=header&text=Bruno%20Alves%20França&fontSize=42&fontColor=ffffff&animation=fadeIn&desc=AI%20Engineer%20%7C%20Software%20Architect&descAlignY=65&descSize=18" width="100%"/>
 
-### **AI Engineer & Software Architect | Liderando Automação e SaaS de Alta Performance**
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&pause=1000&color=3B82F6&center=true&vCenter=true&width=650&lines=Building+Dojoro+%E2%80%94+BJJ+Academy+SaaS;Creator+of+Zekai+%26+Kurama+%E2%80%94+AI+Ecosystem;AI+Engineer+%7C+Multi-Agent+Orchestration;%23BuildInPublic+%E2%80%94+Sharing+Dev+Journey" alt="Typing SVG" />
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/balvesfranca/)
-[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/obrunuaf/)
-[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/obrunuaf)
+![Brasil](https://img.shields.io/badge/📍-Brasil-orange?style=flat-square)
+![Status](https://img.shields.io/badge/Status-Building_Dojoro_%26_AI_SaaS-brightgreen?style=flat-square)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-balvesfranca-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/balvesfranca/)
+[![Instagram](https://img.shields.io/badge/Instagram-obrunuaf-E4405F?style=flat-square&logo=instagram&logoColor=white)](https://www.instagram.com/obrunuaf/)
 
 </div>
 
@@ -14,38 +15,56 @@
 
 ### 👋 Sobre Mim
 
-Não sou apenas mais um desenvolvedor executando tarefas isoladas — **eu projeto, arquiteto e construo ecossistemas digitais escaláveis do zero ao fim**. Atuo na convergência entre engenharia de software moderna e **Inteligência Artificial**, focado no desenvolvimento de produtos próprios (SaaS multi-tenant) e especialização contínua em arquiteturas de agentes autônomos.
+Não sou apenas mais um desenvolvedor codando tickets — eu **projeto e construo ecossistemas reais** do zero ao fim. Atuo na convergência entre engenharia de software de alta performance e **Inteligência Artificial**, liderando o desenvolvimento de produtos próprios e especialização em arquiteturas multi-agente.
 
-* 🥋 **Desenvolvedor do Dojoro:** Plataforma multi-tenant especializada na gestão de academias de Jiu-Jitsu e artes marciais.
-* 🤖 **Especialização em AI Engineering:** Criador e arquiteto do ecossistema **Zekai / Kurama**, operando esteiras de desenvolvimento autônomo com agentes IA especializados e Model Context Protocol (MCP).
-* ⚡ **Arquiteturas de Alta Resiliência:** Foco absoluto em segurança estrita (PostgreSQL / Supabase com RLS `deny_all` por padrão), concorrência e gateways de mensageria em Go.
-* 📢 **#BuildInPublic:** Documento minha evolução em IA, automação e bastidores operacionais nas redes sociais.
+- 🥋 Liderando e desenvolvendo o **Dojoro** — plataforma multi-tenant e ecossistema de gestão para academias de Jiu-Jitsu e artes marciais
+- 🤖 **Especialização em AI Engineering:** Criador do hub canônico **Zekai & Kurama** (`AGENTS.md`), orquestrando squads autônomos com 13 papéis especializados
+- ⚡ Arquiteto de pipelines **Zero-Human** com integração ao **Paperclip**, servidores MCP (Model Context Protocol) e automação contínua de testes
+- 🏢 Liderando a implantação e adaptação de infraestrutura de agentes IA e observabilidade no setor corporativo (Martins Distribuidora)
+- 🌱 Contribuindo e operando ecossistemas de alta segurança (PostgreSQL / Supabase com RLS `deny_all`, concorrência em Go)
+- 📢 **#BuildInPublic** nas redes sociais — documentando bastidores de arquitetura, decisões técnicas e evolução em IA
 
 ---
 
 ### 🚀 Projeto em Destaque — Dojoro
 
-> **Plataforma e ecossistema multi-tenant para gestão integral de academias de Brazilian Jiu-Jitsu (BJJ) e artes marciais.**
+> Plataforma e ecossistema multi-tenant para gestão integral de academias de Brazilian Jiu-Jitsu (BJJ) e artes marciais.
 
-O Dojoro resolve a fragmentação da gestão de alunos, graduações, treinos e financeiro através de uma arquitetura limpa e altamente segura:
-* **Mecanismo Multi-Tenant Real:** Isolamento estrito por academia via header customizado (`X-Academia-Id`) e controle de acesso baseado em papéis (Admin, Instrutor, Aluno).
-* **Dojoro Zap (Gateway de Automação):** Comunicação em tempo real e automação via WhatsApp construída com **Node.js + Go (Whatsmeow)** para notificações de treinos e graduações.
-* **Stack de Alta Performance:** Backend em **NestJS 11** com **PostgreSQL / Supabase** (Argon2id para hashing, RLS nativo e auditoria). Frontend em **Next.js 16** (Tailwind v4) e app mobile em **React Native / Expo SDK 54**.
+- 🥋 **Mecanismo Multi-Tenant Real:** Isolamento estrito por academia via header customizado (`X-Academia-Id`) e controle de acesso baseado em papéis (Admin, Instrutor, Aluno)
+- ⚡ **Dojoro Zap:** Gateway de automação e comunicação em tempo real via WhatsApp construído com **Node.js + Go (Whatsmeow)**
+- 🎨 Interface web ultra moderna em **Next.js 16** (Tailwind v4) e aplicativo mobile nativo em **React Native / Expo SDK 54**
+- 🛡️ Segurança estrita com **PostgreSQL / Supabase** (Argon2id para hashing, RLS nativo e auditoria contínua)
 
----
-
-### 🔬 Especialização em AI & Ecossistema Zekai
-
-Aprofundando em **AI Engineering e Orquestração Multi-Agente**, transformo fluxos tradicionais de desenvolvimento em esteiras inteligentes:
-* **Zekai & Kurama:** Hub canônico de governança fundamentado no padrão da Linux Foundation (`AGENTS.md`), orquestrando squads autônomos com 13 papéis especializados (Orquestrador, Arquiteto de Soluções, Sentinel, QA, etc.).
-* **Pipelines Autônomos (Zero-Human):** Integração com **Paperclip**, Kiro CLI, Cursor Rules e servidores MCP para execução contínua de testes, refatorações e revisões de código sem perda de contexto.
-* **Infraestrutura Dedicada:** Servidores e vaults otimizados para IA na nuvem (VPS Hetzner ARM) com isolamento total de billing e tokens.
+[Ver Organização →](https://github.com/obrunuaf)  |  `NestJS 11` `Next.js 16` `React Native` `Go` `PostgreSQL` `WhatsApp API`
 
 ---
 
-### 🛠️ Stack Técnica Principal
+### 🧩 Outros Projetos & Ecossistema
 
-* **Engenharia Core & Backend:** TypeScript, Node.js, NestJS 11, Go, Python, PostgreSQL, Supabase (*FORCE RLS, Realtime*).
-* **Web & Mobile:** Next.js 16, React 19, Tailwind CSS v4, Lucide Icons, React Native / Expo SDK 54.
-* **Inteligência Artificial & Automação:** Model Context Protocol (MCP), Orquestração Multi-Agente (*Opus 4.8, Gemini 3, Sonnet 4.5*), Automação de Workflows e Obsidian Vaults.
-* **Qualidade & CI/CD:** Playwright (*Auditoria Visual e Testes E2E em CI/CD*), Docker, Vitest, Git Workflows.
+[Zekai & Kurama](https://github.com/obrunuaf/zekai)
+`Linux Foundation AGENTS.md` `Multi-Agent Squads` `Opus 4.8` `MCP Registry`
+
+[Finvision / Kairo](https://github.com/obrunuaf/finvision-web)
+`Next.js 16` `NestJS 11` `Supabase RLS` `IRPF AI Agent`
+
+[MRTCOBDOC-AI](https://github.com/obrunuaf/MRTCOBDOC-AI)
+`Corporate AI Onboarding` `Cursor Rules` `Vault Obsidian` `AI Governance`
+
+[Bip-Automation](https://github.com/obrunuaf/bip-automation)
+`Node.js` `React` `Vite` `#BuildInPublic Automation`
+
+[Paperclip](https://github.com/obrunuaf/paperclip)
+`Zero-Human Pipelines` `Open Source AI Orchestration`
+
+---
+
+<div align="center">
+
+<!-- 🐍 Gerado pelo workflow .github/workflows/snake.yml -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/obrunuaf/obrunuaf/output/github-contribution-grid-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/obrunuaf/obrunuaf/output/github-contribution-grid-snake.svg" />
+  <img alt="Contribution snake animation" src="https://raw.githubusercontent.com/obrunuaf/obrunuaf/output/github-contribution-grid-snake.svg" width="100%" />
+</picture>
+
+</div>

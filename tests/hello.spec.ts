@@ -7,25 +7,35 @@ test.describe('Verificação do Perfil Executivo @obrunuaf — Dojoro & AI Engin
     const readmePath = path.join(__dirname, '..', 'README.md');
     const content = fs.readFileSync(readmePath, 'utf-8');
 
-    // 1. Saudação inicial
-    expect(content).toContain('Oi, eu sou o Bruno Alves França 👋');
+    // 1. Saudação inicial e Banner Waving
+    expect(content).toContain('capsule-render');
+    expect(content).toContain('Bruno%20Alves%20França');
+    expect(content).toContain('readme-typing-svg');
 
-    // 2. Título executivo
-    expect(content).toContain('AI Engineer & Software Architect');
-
-    // 3. Foco em Dojoro (SaaS Jiu-Jitsu)
+    // 2. Foco em Dojoro (SaaS Jiu-Jitsu)
     expect(content).toContain('Dojoro');
     expect(content).toContain('academias de Jiu-Jitsu');
     expect(content).toContain('X-Academia-Id');
     expect(content).toContain('Whatsmeow');
 
-    // 4. Especialização em AI Engineering & Orquestração Multi-Agente
+    // 3. Especialização em AI Engineering & Orquestração Multi-Agente
     expect(content).toContain('AI Engineering');
     expect(content).toContain('Zekai');
     expect(content).toContain('Kurama');
-    expect(content).toContain('Model Context Protocol (MCP)');
+    expect(content).toContain('Model Context Protocol');
+    expect(content).toContain('MCP');
 
-    // 5. Redes sociais (LinkedIn e Instagram)
+    // 4. Outros Projetos e Ecossistema (Estrutura Aryaman)
+    expect(content).toContain('Finvision / Kairo');
+    expect(content).toContain('MRTCOBDOC-AI');
+    expect(content).toContain('Bip-Automation');
+    expect(content).toContain('Paperclip');
+
+    // 5. Animação do Snake (TheDeveloperDoctor)
+    expect(content).toContain('github-contribution-grid-snake');
+    expect(content).toContain('github-contribution-grid-snake-dark.svg');
+
+    // 6. Redes sociais (LinkedIn e Instagram)
     expect(content).toContain('linkedin.com/in/balvesfranca/');
     expect(content).toContain('instagram.com/obrunuaf/');
   });

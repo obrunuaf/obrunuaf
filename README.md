@@ -1,12 +1,12 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0A0F1A,100:3B82F6&height=180&section=header&text=Bruno%20Alves%20França&fontSize=42&fontColor=ffffff&animation=fadeIn&desc=AI%20Engineer%20%7C%20Software%20Architect&descAlignY=65&descSize=18" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,100:2c5364&height=180&section=header&text=Bruno%20Alves%20França&fontSize=42&fontColor=ffffff&animation=fadeIn&desc=AI%20Engineer%20%7C%20Software%20Architect&descAlignY=65&descSize=18" width="100%"/>
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&pause=1000&color=3B82F6&center=true&vCenter=true&width=650&lines=Building+Dojoro+%E2%80%94+BJJ+Academy+SaaS;Creator+of+Zekai+%26+Kurama+%E2%80%94+AI+Ecosystem;AI+Engineer+%7C+Multi-Agent+Orchestration;%23BuildInPublic+%E2%80%94+Sharing+Dev+Journey" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&pause=1000&color=00F7FF&center=true&vCenter=true&width=650&lines=Building+Dojoro+%E2%80%94+BJJ+Academy+SaaS;Creator+of+Zekai+%26+Kurama+%E2%80%94+AI+Ecosystem;AI+Engineer+%7C+Multi-Agent+Orchestration;%23BuildInPublic+%E2%80%94+Sharing+Dev+Journey" alt="Typing SVG" />
 
 ![Brasil](https://img.shields.io/badge/📍-Brasil-orange?style=flat-square)
 ![Status](https://img.shields.io/badge/Status-Building_Dojoro_%26_AI_SaaS-brightgreen?style=flat-square)
-![Open to](https://img.shields.io/badge/Open_to-AI_%26_Architecture_Consulting-blue?style=flat-square)
+![Open to Work](https://img.shields.io/badge/Open_to-AI_%26_Architecture_Consulting-blue?style=flat-square)
 
 </div>
 
@@ -19,7 +19,6 @@ Não sou apenas mais um desenvolvedor codando tickets — eu **projeto e constru
 - 🥋 Liderando e desenvolvendo o **Dojoro** — plataforma multi-tenant e ecossistema de gestão para academias de Jiu-Jitsu e artes marciais
 - 🤖 **Especialização em AI Engineering:** Criador do hub canônico **Zekai & Kurama** (`AGENTS.md`), orquestrando squads autônomos com 13 papéis especializados
 - ⚡ Arquiteto de pipelines **Zero-Human** com integração ao **Paperclip**, servidores MCP (Model Context Protocol) e automação contínua de testes
-- 🏢 Liderando a implantação e adaptação de infraestrutura de agentes IA e observabilidade no setor corporativo (Martins Distribuidora)
 - 🌱 Contribuindo e operando ecossistemas de alta segurança (PostgreSQL / Supabase com RLS `deny_all`, concorrência em Go)
 - 📢 **#BuildInPublic** nas redes sociais — documentando bastidores de arquitetura, decisões técnicas e evolução em IA
 
@@ -34,27 +33,27 @@ Não sou apenas mais um desenvolvedor codando tickets — eu **projeto e constru
 - 🎨 Interface web ultra moderna em **Next.js 16** (Tailwind v4) e aplicativo mobile nativo em **React Native / Expo SDK 54**
 - 🛡️ Segurança estrita com **PostgreSQL / Supabase** (Argon2id para hashing, RLS nativo e auditoria contínua)
 
-**[Ver Organização →](https://github.com/obrunuaf)** &nbsp;|&nbsp; `NestJS 11` `Next.js 16` `React Native` `Go` `PostgreSQL` `WhatsApp API`
+**[Ver Organização →](https://github.com/obrunuaf)** &nbsp;|&nbsp; `NestJS` `Next.js` `React Native` `Go` `PostgreSQL` `WhatsApp API`
 
 ---
 
 ### 🛠️ Tech Stack
 
-![Next.js](https://img.shields.io/badge/-Next.js_16-000000?style=for-the-badge&logo=next.js&logoColor=white)
+![Next.js](https://img.shields.io/badge/-Next.js-000000?style=for-the-badge&logo=next.js)
 ![React Native](https://img.shields.io/badge/-React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Expo](https://img.shields.io/badge/-Expo_SDK_54-000020?style=for-the-badge&logo=expo&logoColor=white)
-![NestJS](https://img.shields.io/badge/-NestJS_11-E0234E?style=for-the-badge&logo=nestjs&logoColor=white)
+![Expo](https://img.shields.io/badge/-Expo-000020?style=for-the-badge&logo=expo&logoColor=white)
+![NestJS](https://img.shields.io/badge/-NestJS-E0234E?style=for-the-badge&logo=nestjs&logoColor=white)
 ![Node.js](https://img.shields.io/badge/-Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)
-![Go](https://img.shields.io/badge/-Go_%2F_Whatsmeow-00ADD8?style=for-the-badge&logo=go&logoColor=white)
+![Go](https://img.shields.io/badge/-Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
-![Supabase](https://img.shields.io/badge/-Supabase_RLS-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white)
+![Supabase](https://img.shields.io/badge/-Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
-![Tailwind CSS](https://img.shields.io/badge/-Tailwind_v4-38B2AC?style=for-the-badge&logo=tailwindcss&logoColor=white)
+![Tailwind](https://img.shields.io/badge/-TailwindCSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
 ![Docker](https://img.shields.io/badge/-Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 ![Git](https://img.shields.io/badge/-Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/-GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/-GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)
 ![Playwright](https://img.shields.io/badge/-Playwright-2EAD33?style=for-the-badge&logo=playwright&logoColor=white)
-![Linux](https://img.shields.io/badge/-Linux_%2F_Bash-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+![Python](https://img.shields.io/badge/-Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 
 ---
 
@@ -62,12 +61,12 @@ Não sou apenas mais um desenvolvedor codando tickets — eu **projeto e constru
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=obrunuaf&show_icons=true&theme=tokyonight&hide_border=true&count_private=true"/>
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=obrunuaf&layout=compact&theme=tokyonight&hide_border=true"/>
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=obrunuaf&show_icons=true&theme=radical&hide_border=true&count_private=true"/>
+<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=obrunuaf&layout=compact&theme=radical&hide_border=true"/>
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=obrunuaf&theme=tokyonight&hide_border=true" alt="streak stats"/>
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=obrunuaf&theme=radical&hide_border=true" alt="streak stats"/>
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=obrunuaf&theme=tokyo-night&hide_border=true" width="100%"/>
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=obrunuaf&theme=react-dark&hide_border=true" width="100%"/>
 
 <br/><br/>
 
@@ -93,4 +92,4 @@ Não sou apenas mais um desenvolvedor codando tickets — eu **projeto e constru
 
 </div>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:3B82F6,100:0A0F1A&height=100&section=footer"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:2c5364,100:0f2027&height=100&section=footer"/>

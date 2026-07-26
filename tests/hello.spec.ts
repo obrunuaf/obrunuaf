@@ -3,11 +3,11 @@ import * as fs from 'fs';
 import * as path from 'path';
 
 test.describe('Verificação do Perfil Executivo @obrunuaf — Estrutura e Seções Exatas', () => {
-  test('README.md local deve conter as seções Tech Stack, GitHub Stats e Connect com estilo for-the-badge', () => {
+  test('README.md local deve conter as seções Tech Stack, GitHub Stats e Connect com cards estáveis e sem Martins Distribuidora', () => {
     const readmePath = path.join(__dirname, '..', 'README.md');
     const content = fs.readFileSync(readmePath, 'utf-8');
 
-    // 1. Saudação inicial, Waving e Alinhamento horizontal de badges
+    // 1. Saudação inicial e Waving
     expect(content).toContain('capsule-render');
     expect(content).toContain('Bruno%20Alves%20França');
 
@@ -15,20 +15,23 @@ test.describe('Verificação do Perfil Executivo @obrunuaf — Estrutura e Seç�
     expect(content).toContain('Dojoro');
     expect(content).toContain('X-Academia-Id');
 
-    // 3. Seções exatas solicitadas
+    // 3. Garantir remoção do item incorreto
+    expect(content).not.toContain('Martins Distribuidora');
+
+    // 4. Seções exatas solicitadas
     expect(content).toContain('### 🛠️ Tech Stack');
     expect(content).toContain('### 📊 GitHub Stats');
     expect(content).toContain('### 🔗 Connect');
 
-    // 4. Estilo for-the-badge sem subtítulos extras
+    // 5. Estilo for-the-badge sem subtítulos extras
     expect(content).toContain('style=for-the-badge');
-    expect(content).not.toContain('#### 🤖 AI');
 
-    // 5. Animação do Snake e Gráficos
+    // 6. Animação do Snake e Gráficos estáveis do Aryaman (theme=radical)
     expect(content).toContain('github-contribution-grid-snake');
     expect(content).toContain('github-readme-stats');
+    expect(content).toContain('theme=radical');
 
-    // 6. Garantir que a seção antiga foi removida
+    // 7. Garantir que a seção antiga foi removida
     expect(content).not.toContain('Outros Projetos & Ecossistema');
   });
 

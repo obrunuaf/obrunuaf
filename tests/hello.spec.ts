@@ -2,42 +2,31 @@ import { test, expect } from '@playwright/test';
 import * as fs from 'fs';
 import * as path from 'path';
 
-test.describe('Verificação do Perfil Executivo @obrunuaf — Dojoro & AI Engineering', () => {
-  test('README.md local deve conter a saudação, foco no Dojoro, especialização em AI e links sociais', () => {
+test.describe('Verificação do Perfil Executivo @obrunuaf — Estrutura e Seções Exatas', () => {
+  test('README.md local deve conter as seções Tech Stack, GitHub Stats e Connect e remover Outros Projetos', () => {
     const readmePath = path.join(__dirname, '..', 'README.md');
     const content = fs.readFileSync(readmePath, 'utf-8');
 
-    // 1. Saudação inicial e Banner Waving
+    // 1. Saudação inicial, Waving e Alinhamento horizontal de badges (&nbsp;)
     expect(content).toContain('capsule-render');
     expect(content).toContain('Bruno%20Alves%20França');
-    expect(content).toContain('readme-typing-svg');
+    expect(content).toContain('&nbsp;');
 
-    // 2. Foco em Dojoro (SaaS Jiu-Jitsu)
+    // 2. Foco em Dojoro
     expect(content).toContain('Dojoro');
-    expect(content).toContain('academias de Jiu-Jitsu');
     expect(content).toContain('X-Academia-Id');
-    expect(content).toContain('Whatsmeow');
 
-    // 3. Especialização em AI Engineering & Orquestração Multi-Agente
-    expect(content).toContain('AI Engineering');
-    expect(content).toContain('Zekai');
-    expect(content).toContain('Kurama');
-    expect(content).toContain('Model Context Protocol');
-    expect(content).toContain('MCP');
+    // 3. Seções exatas solicitadas
+    expect(content).toContain('### 🛠️ Tech Stack');
+    expect(content).toContain('### 📊 GitHub Stats');
+    expect(content).toContain('### 🔗 Connect');
 
-    // 4. Outros Projetos e Ecossistema (Estrutura Aryaman)
-    expect(content).toContain('Finvision / Kairo');
-    expect(content).toContain('MRTCOBDOC-AI');
-    expect(content).toContain('Bip-Automation');
-    expect(content).toContain('Paperclip');
-
-    // 5. Animação do Snake (TheDeveloperDoctor)
+    // 4. Animação do Snake e Gráficos
     expect(content).toContain('github-contribution-grid-snake');
-    expect(content).toContain('github-contribution-grid-snake-dark.svg');
+    expect(content).toContain('github-profile-summary-cards');
 
-    // 6. Redes sociais (LinkedIn e Instagram)
-    expect(content).toContain('linkedin.com/in/balvesfranca/');
-    expect(content).toContain('instagram.com/obrunuaf/');
+    // 5. Garantir que a seção antiga foi removida
+    expect(content).not.toContain('Outros Projetos & Ecossistema');
   });
 
   test('Página pública do GitHub obrunuaf deve renderizar o perfil e repositórios', async ({ page }) => {

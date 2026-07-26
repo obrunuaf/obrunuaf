@@ -1,42 +1,51 @@
+<div align="center">
+
 # Oi, eu sou o Bruno Alves França 👋
 
-**Software Architect & Full-Stack Engineer | Multi-Agent Orchestration & Ecosystem Builder.**
+### **AI Engineer & Software Architect | Liderando Automação e SaaS de Alta Performance**
 
-Construo, arquiteto e lidero o desenvolvimento de ecossistemas digitais escaláveis, SaaS multi-tenant e infraestruturas impulsionadas por IA e agentes autônomos. Atuo diretamente na linha de frente operacional, unindo engenharia de software de alta performance (NestJS, Next.js, Go) com segurança estrita (Supabase RLS) e automação de ponta a ponta.
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/balvesfranca/)
+[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/obrunuaf/)
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/obrunuaf)
 
----
-
-## 🚀 Ecossistema & Projetos em Destaque
-
-- **🥊 [Dojoro](https://github.com/obrunuaf/dojoro-site)** — *Plataforma e ecossistema multi-tenant para artes marciais e academias:*
-  - **Dojoro API:** Backend de alta performance em **NestJS 11** com **PostgreSQL / Supabase** (segurança nativa via RLS estrito, controle multi-role de acessos para Admin/Instrutor/Aluno e auditoria completa).
-  - **Dojoro Zap:** Gateway de automação e comunicação em tempo real via WhatsApp, arquitetado em **Node.js + Go / Whatsmeow**.
-  - **Dojoro Site & App:** Plataformas Web (**Next.js 16, React 19, Tailwind CSS v4**) e Mobile (**Expo SDK 54 / React Native**).
-
-- **📈 [Finvision](https://github.com/obrunuaf/finvision-web)** — *Inteligência e infraestrutura financeira:*
-  - Plataforma de gestão, auditoria fiscal e inteligência financeira para operações digitais modernas (Next.js + NestJS + Supabase).
-  - **IRPF Agent:** Automação e análise tributária inteligente com agentes especializados.
-
-- **🪐 [Zekai & Kurama](https://github.com/obrunuaf/zekai)** — *Hub canônico e orquestração multi-agente:*
-  - Arquitetura de governança e desenvolvimento autônomo baseado no padrão canônico Linux Foundation (`AGENTS.md`), orquestrando squads com 13 papéis especializados (Orquestrador, Arquiteto, Sentinel, DBA, etc.) e integração contínua de modelos via MCP.
-
-- **⚡ [Paperclip](https://github.com/obrunuaf/paperclip)** — *Open-source orchestration for zero-human companies.*
-- **🎯 [Zenko Focus](https://github.com/obrunuaf/zenko-focus)** — *Aplicação de foco profundo e produtividade (React + TypeScript).*
-
----
-
-## 🛠️ Stack Técnica & Operacional
-
-- **Core & Backend:** TypeScript, Node.js, NestJS 11, Go (concorrência e gateways), Python, PostgreSQL, Supabase (*FORCE RLS, Realtime & Service Role Bypass*).
-- **Frontend & Mobile:** Next.js 16, React 19, Tailwind CSS v4, Lucide Icons, React Native / Expo SDK 54.
-- **Engenharia de Qualidade:** Playwright (*Testes E2E, automação de navegadores e verificação visual CI/CD*), Vitest, Docker, Git Workflows.
-- **IA & Automação:** Model Context Protocol (MCP), Orquestração Multi-Agente (*Opus 4.8, Gemini 3, Kiro CLI, Codex, Cursor Rules*), automação por runbooks e Vault Obsidian.
-
----
-
-## ⚡ Onde me encontrar
-
-<div>
-  <a href="https://github.com/obrunuaf" target="_blank"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"></a>
-  <a href="https://www.linkedin.com/in/brunoalvesfranca/" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
 </div>
+
+---
+
+### 👋 Sobre Mim
+
+Não sou apenas mais um desenvolvedor executando tarefas isoladas — **eu projeto, arquiteto e construo ecossistemas digitais escaláveis do zero ao fim**. Atuo na convergência entre engenharia de software moderna e **Inteligência Artificial**, focado no desenvolvimento de produtos próprios (SaaS multi-tenant) e especialização contínua em arquiteturas de agentes autônomos.
+
+* 🥋 **Desenvolvedor do Dojoro:** Plataforma multi-tenant especializada na gestão de academias de Jiu-Jitsu e artes marciais.
+* 🤖 **Especialização em AI Engineering:** Criador e arquiteto do ecossistema **Zekai / Kurama**, operando esteiras de desenvolvimento autônomo com agentes IA especializados e Model Context Protocol (MCP).
+* ⚡ **Arquiteturas de Alta Resiliência:** Foco absoluto em segurança estrita (PostgreSQL / Supabase com RLS `deny_all` por padrão), concorrência e gateways de mensageria em Go.
+* 📢 **#BuildInPublic:** Documento minha evolução em IA, automação e bastidores operacionais nas redes sociais.
+
+---
+
+### 🚀 Projeto em Destaque — Dojoro
+
+> **Plataforma e ecossistema multi-tenant para gestão integral de academias de Brazilian Jiu-Jitsu (BJJ) e artes marciais.**
+
+O Dojoro resolve a fragmentação da gestão de alunos, graduações, treinos e financeiro através de uma arquitetura limpa e altamente segura:
+* **Mecanismo Multi-Tenant Real:** Isolamento estrito por academia via header customizado (`X-Academia-Id`) e controle de acesso baseado em papéis (Admin, Instrutor, Aluno).
+* **Dojoro Zap (Gateway de Automação):** Comunicação em tempo real e automação via WhatsApp construída com **Node.js + Go (Whatsmeow)** para notificações de treinos e graduações.
+* **Stack de Alta Performance:** Backend em **NestJS 11** com **PostgreSQL / Supabase** (Argon2id para hashing, RLS nativo e auditoria). Frontend em **Next.js 16** (Tailwind v4) e app mobile em **React Native / Expo SDK 54**.
+
+---
+
+### 🔬 Especialização em AI & Ecossistema Zekai
+
+Aprofundando em **AI Engineering e Orquestração Multi-Agente**, transformo fluxos tradicionais de desenvolvimento em esteiras inteligentes:
+* **Zekai & Kurama:** Hub canônico de governança fundamentado no padrão da Linux Foundation (`AGENTS.md`), orquestrando squads autônomos com 13 papéis especializados (Orquestrador, Arquiteto de Soluções, Sentinel, QA, etc.).
+* **Pipelines Autônomos (Zero-Human):** Integração com **Paperclip**, Kiro CLI, Cursor Rules e servidores MCP para execução contínua de testes, refatorações e revisões de código sem perda de contexto.
+* **Infraestrutura Dedicada:** Servidores e vaults otimizados para IA na nuvem (VPS Hetzner ARM) com isolamento total de billing e tokens.
+
+---
+
+### 🛠️ Stack Técnica Principal
+
+* **Engenharia Core & Backend:** TypeScript, Node.js, NestJS 11, Go, Python, PostgreSQL, Supabase (*FORCE RLS, Realtime*).
+* **Web & Mobile:** Next.js 16, React 19, Tailwind CSS v4, Lucide Icons, React Native / Expo SDK 54.
+* **Inteligência Artificial & Automação:** Model Context Protocol (MCP), Orquestração Multi-Agente (*Opus 4.8, Gemini 3, Sonnet 4.5*), Automação de Workflows e Obsidian Vaults.
+* **Qualidade & CI/CD:** Playwright (*Auditoria Visual e Testes E2E em CI/CD*), Docker, Vitest, Git Workflows.

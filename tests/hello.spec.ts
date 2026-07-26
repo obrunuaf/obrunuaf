@@ -2,59 +2,42 @@ import { test, expect } from '@playwright/test';
 import * as fs from 'fs';
 import * as path from 'path';
 
-test.describe('Verificação do Perfil Executivo @obrunuaf', () => {
-  test('README.md local deve conter a saudação "Oi" e a estrutura executiva', async () => {
-    const readmePath = path.resolve(__dirname, '../README.md');
+test.describe('Verificação do Perfil Executivo @obrunuaf — Dojoro & AI Engineering', () => {
+  test('README.md local deve conter a saudação, foco no Dojoro, especialização em AI e links sociais', () => {
+    const readmePath = path.join(__dirname, '..', 'README.md');
     const content = fs.readFileSync(readmePath, 'utf-8');
 
-    // Verifica se a saudação "Oi" exigida está presente no início do arquivo
-    expect(content).toContain('# Oi, eu sou o Bruno Alves França');
-    
-    // Verifica se os destaques de engenharia e arquitetura estão presentes
-    expect(content).toContain('Software Architect & Full-Stack Engineer');
+    // 1. Saudação inicial
+    expect(content).toContain('Oi, eu sou o Bruno Alves França 👋');
+
+    // 2. Título executivo
+    expect(content).toContain('AI Engineer & Software Architect');
+
+    // 3. Foco em Dojoro (SaaS Jiu-Jitsu)
     expect(content).toContain('Dojoro');
-    expect(content).toContain('Finvision');
+    expect(content).toContain('academias de Jiu-Jitsu');
+    expect(content).toContain('X-Academia-Id');
+    expect(content).toContain('Whatsmeow');
+
+    // 4. Especialização em AI Engineering & Orquestração Multi-Agente
+    expect(content).toContain('AI Engineering');
     expect(content).toContain('Zekai');
+    expect(content).toContain('Kurama');
+    expect(content).toContain('Model Context Protocol (MCP)');
+
+    // 5. Redes sociais (LinkedIn e Instagram)
+    expect(content).toContain('linkedin.com/in/balvesfranca/');
+    expect(content).toContain('instagram.com/obrunuaf/');
   });
 
-  test('Página renderizada no browser com Playwright deve exibir "Oi" e informações do perfil', async ({ page }) => {
-    const readmePath = path.resolve(__dirname, '../README.md');
-    const content = fs.readFileSync(readmePath, 'utf-8');
-
-    // Monta um DOM estático simples para simular a renderização do perfil
-    await page.setContent(`
-      <!DOCTYPE html>
-      <html lang="pt-BR">
-        <head>
-          <meta charset="utf-8" />
-          <title>Perfil @obrunuaf</title>
-        </head>
-        <body>
-          <main class="markdown-body">
-            <h1>Oi, eu sou o Bruno Alves França 👋</h1>
-            <p><strong>Software Architect & Full-Stack Engineer | Multi-Agent Orchestration & Ecosystem Builder.</strong></p>
-            <section id="projects">
-              <h2>Ecossistema & Projetos em Destaque</h2>
-              <ul>
-                <li>Dojoro</li>
-                <li>Finvision</li>
-                <li>Zekai & Kurama</li>
-              </ul>
-            </section>
-          </main>
-        </body>
-      </html>
-    `);
-
-    // Verifica se o Playwright encontra o elemento H1 com "Oi"
-    const heading = page.locator('h1');
-    await expect(heading).toBeVisible();
-    await expect(heading).toContainText('Oi');
-    await expect(heading).toContainText('Bruno Alves França');
-
-    // Verifica se a seção de projetos está renderizada corretamente
-    const projectsSection = page.locator('#projects');
-    await expect(projectsSection).toBeVisible();
-    await expect(projectsSection.locator('li')).toHaveCount(3);
+  test('Página pública do GitHub obrunuaf deve renderizar o perfil e repositórios', async ({ page }) => {
+    await page.goto('https://github.com/obrunuaf');
+    
+    // Verifica o título principal da página do usuário
+    await expect(page).toHaveTitle(/obrunuaf/i);
+    
+    // Verifica se a seção de repositórios populares existe no DOM
+    const popularRepos = page.locator('text=Popular repositories');
+    await expect(popularRepos).toBeVisible();
   });
 });

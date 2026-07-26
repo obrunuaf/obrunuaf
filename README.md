@@ -1,26 +1,42 @@
-## Oiii eu sou a Rafaella Ballerini, criadora de conteúdo de programação e tecnologia!
+# Oi, eu sou o Bruno Alves França 👋
 
-Pessoal que veio atrás do **Github Stats:** a API provavelmente saiu do ar nesse período,
-mas você pode adicionar a sua própria, seguindo esse [tutorial](https://github.com/anuraghazra/github-readme-stats/blob/master/readme.md#deploy-on-your-own-vercel-instance)
+**Software Architect & Full-Stack Engineer | Multi-Agent Orchestration & Ecosystem Builder.**
 
-<div style="display: inline_block"><br>
-  <img align="center" alt="Rafa-Js" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
-  <img align="center" alt="Rafa-Ts" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-plain.svg">
-  <img align="center" alt="Rafa-React" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg">
-  <img align="center" alt="Rafa-HTML" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
-  <img align="center" alt="Rafa-CSS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
-  <img align="center" alt="Rafa-Python" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg">
-  <img align="center" alt="Rafa-Csharp" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/csharp/csharp-original.svg">
-</div>
-  
-  ##
- 
-<div> 
-  <a href="https://www.youtube.com/channel/UC_-uuuZbY0AAt9CViNzvc-Q" target="_blank"><img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" target="_blank"></a>
-  <a href="https://instagram.com/rafaballerini" target="_blank"><img src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white" target="_blank"></a>
- 	<a href="https://www.twitch.tv/rafaballerinii" target="_blank"><img src="https://img.shields.io/badge/Twitch-9146FF?style=for-the-badge&logo=twitch&logoColor=white" target="_blank"></a>
- <a href="https://discord.gg/wagxzStdcR" target="_blank"><img src="https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white" target="_blank"></a> 
-  <a href = "mailto:contatorafaballerini@gmail.com"><img src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
-  <a href="https://www.linkedin.com/in/rafaella-ballerini-45875016a" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a> 
-  
+Construo, arquiteto e lidero o desenvolvimento de ecossistemas digitais escaláveis, SaaS multi-tenant e infraestruturas impulsionadas por IA e agentes autônomos. Atuo diretamente na linha de frente operacional, unindo engenharia de software de alta performance (NestJS, Next.js, Go) com segurança estrita (Supabase RLS) e automação de ponta a ponta.
+
+---
+
+## 🚀 Ecossistema & Projetos em Destaque
+
+- **🥊 [Dojoro](https://github.com/obrunuaf/dojoro-site)** — *Plataforma e ecossistema multi-tenant para artes marciais e academias:*
+  - **Dojoro API:** Backend de alta performance em **NestJS 11** com **PostgreSQL / Supabase** (segurança nativa via RLS estrito, controle multi-role de acessos para Admin/Instrutor/Aluno e auditoria completa).
+  - **Dojoro Zap:** Gateway de automação e comunicação em tempo real via WhatsApp, arquitetado em **Node.js + Go / Whatsmeow**.
+  - **Dojoro Site & App:** Plataformas Web (**Next.js 16, React 19, Tailwind CSS v4**) e Mobile (**Expo SDK 54 / React Native**).
+
+- **📈 [Finvision](https://github.com/obrunuaf/finvision-web)** — *Inteligência e infraestrutura financeira:*
+  - Plataforma de gestão, auditoria fiscal e inteligência financeira para operações digitais modernas (Next.js + NestJS + Supabase).
+  - **IRPF Agent:** Automação e análise tributária inteligente com agentes especializados.
+
+- **🪐 [Zekai & Kurama](https://github.com/obrunuaf/zekai)** — *Hub canônico e orquestração multi-agente:*
+  - Arquitetura de governança e desenvolvimento autônomo baseado no padrão canônico Linux Foundation (`AGENTS.md`), orquestrando squads com 13 papéis especializados (Orquestrador, Arquiteto, Sentinel, DBA, etc.) e integração contínua de modelos via MCP.
+
+- **⚡ [Paperclip](https://github.com/obrunuaf/paperclip)** — *Open-source orchestration for zero-human companies.*
+- **🎯 [Zenko Focus](https://github.com/obrunuaf/zenko-focus)** — *Aplicação de foco profundo e produtividade (React + TypeScript).*
+
+---
+
+## 🛠️ Stack Técnica & Operacional
+
+- **Core & Backend:** TypeScript, Node.js, NestJS 11, Go (concorrência e gateways), Python, PostgreSQL, Supabase (*FORCE RLS, Realtime & Service Role Bypass*).
+- **Frontend & Mobile:** Next.js 16, React 19, Tailwind CSS v4, Lucide Icons, React Native / Expo SDK 54.
+- **Engenharia de Qualidade:** Playwright (*Testes E2E, automação de navegadores e verificação visual CI/CD*), Vitest, Docker, Git Workflows.
+- **IA & Automação:** Model Context Protocol (MCP), Orquestração Multi-Agente (*Opus 4.8, Gemini 3, Kiro CLI, Codex, Cursor Rules*), automação por runbooks e Vault Obsidian.
+
+---
+
+## ⚡ Onde me encontrar
+
+<div>
+  <a href="https://github.com/obrunuaf" target="_blank"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"></a>
+  <a href="https://www.linkedin.com/in/brunoalvesfranca/" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
 </div>

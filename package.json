@@ -1,0 +1,17 @@
+{
+  "name": "obrunuaf-profile",
+  "version": "1.0.0",
+  "description": "GitHub profile README & automated Playwright verification suite for @obrunuaf",
+  "private": true,
+  "scripts": {
+    "test": "playwright test",
+    "test:ui": "playwright test --ui"
+  },
+  "author": "Bruno Alves França <obrunuaf>",
+  "license": "MIT",
+  "devDependencies": {
+    "@playwright/test": "^1.49.1",
+    "@types/node": "^22.0.0",
+    "typescript": "^5.7.0"
+  }
+}

@@ -18,9 +18,6 @@ Não sou apenas mais um desenvolvedor codando tickets — eu **projeto e constru
 
 - 🥋 Liderando e desenvolvendo o **Dojoro** — plataforma multi-tenant e ecossistema de gestão para academias de Jiu-Jitsu e artes marciais
 - 🤖 **Especialização em AI Engineering:** Criador do hub canônico **Zekai & Kurama** (`AGENTS.md`), orquestrando squads autônomos com 13 papéis especializados
-- ⚡ Arquiteto de pipelines **Zero-Human** com integração ao **Paperclip**, servidores MCP (Model Context Protocol) e automação contínua de testes
-- 🌱 Contribuindo e operando ecossistemas de alta segurança (PostgreSQL / Supabase com RLS `deny_all`, concorrência em Go)
-- 📢 **#BuildInPublic** nas redes sociais — documentando bastidores de arquitetura, decisões técnicas e evolução em IA
 
 ---
 
@@ -61,8 +58,8 @@ Não sou apenas mais um desenvolvedor codando tickets — eu **projeto e constru
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=obrunuaf&show_icons=true&theme=radical&hide_border=true&count_private=true"/>
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=obrunuaf&layout=compact&theme=radical&hide_border=true"/>
+<img height="165" src="https://github-readme-stats-anuraghazra.vercel.app/api?username=obrunuaf&show_icons=true&theme=radical&hide_border=true&count_private=true"/>
+<img height="165" src="https://github-readme-stats-anuraghazra.vercel.app/api/top-langs/?username=obrunuaf&layout=compact&theme=radical&hide_border=true"/>
 
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=obrunuaf&theme=radical&hide_border=true" alt="streak stats"/>
 
